@@ -86,8 +86,7 @@ public class FormularioActivity extends AppCompatActivity {
     }
 
     public void  Close(){
-        Intent intent = new Intent(FormularioActivity.this, MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void Clean(){
